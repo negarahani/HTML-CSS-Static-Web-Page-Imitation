@@ -1,0 +1,371 @@
+
+/* Remove default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove list styles (bullet points) */
+ul {
+    list-style: none;
+}
+
+h1 {
+    text-decoration: none;
+}
+body {
+    background-color: #fff;
+    height: 23vh;
+    overflow-x: hidden; /*this solved the problem of mysterious white space in the right side !!!*/
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+.header-main {
+    width: 100% ;
+    height: 55px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    margin-right: 20px;
+    
+}
+.header-box{
+    width: 725px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #b89107;
+    margin-left: 70px;
+    /*vertical-align: center;*/ /*does not work!*/
+}
+
+.header-main-nav {
+    background-color: #fff;
+   
+}
+.header-text-right {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
+    
+}
+
+.header-main-nav ul {
+    list-style: none; /*technically this is already done in reset.css*/
+    
+}
+
+.header-main-nav ul li{
+    display: inline;
+    float: left; /*we want to make them completely close to each other*/
+}
+
+.header-main-nav ul li a{
+    padding: 0px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 10px;
+}
+
+.header-main-nav ul li:first-child a {
+    color: #80670d; 
+}
+
+.row-1 {
+    height: 660px;
+    background-image: url('images/image3.png');
+    background-size: auto 780px ; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    
+}
+
+.main-background-heading {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 35px;
+    font-family: "EB Garamond";
+    font-weight: normal;
+    letter-spacing: 10px;
+    line-height: 55px;
+}
+
+.row-2 {
+    margin-top: 50px; 
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flower-container-top {
+    position: relative;
+}
+
+
+.flower-image-top {
+    width: 250;
+    height: 350px;
+}
+.items-overlay-top {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.flower-heading-top {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 7px;
+    top: 20%;
+}
+
+.flower-text-top {
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-family: "EB Garamond";
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 30px;
+    top:45%;
+    width: 150px;
+}
+
+.flower-button-top {
+    background-color: transparent;
+    border-style: solid;
+    border-color:#fff;
+    border-width: 1px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color:#fff;
+    cursor: pointer;
+    font-size: 10px;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translateX(-50%);
+}
+
+
+.image-box {
+    margin: 20px;
+}
+
+.image-1 {
+    width: 400px;
+    height: 350px;
+    
+}
+
+.row-3 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-section {
+    width: 400px;
+    text-align: center;
+    
+}
+.double-quotes {
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 20px;
+}
+.testimonial-text {
+    font-family: "EB Garamond";
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 40px;
+    margin-top: 0px; 
+}
+.names-text {
+    margin-top: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #b89107;
+    font-weight:550;
+}
+
+.left-arrow {
+    font-size: 20px;
+    margin-top: 140px;
+    margin-right: 100px;
+    height: 20px;
+    color: #b89107;
+    
+   
+}
+.right-arrow {
+    font-size: 20px;
+    margin-top: 140px;
+    margin-left: 100px;
+    height: 20px; 
+    color: #b89107;
+}
+
+.row-4 {
+    margin-top: 130px;
+    height:430px;
+    background-image: url('images/image2.png');
+    background-position: center 90px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 650px auto;
+    position: relative;
+    
+}
+
+.flower-image-bottom {
+    width: 200px;
+    height: 330px;
+}
+
+.flower-container-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    margin-left: 170px;
+    
+}
+
+.flower-container-bottom{
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+
+.items-overlay-bottom{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.flower-heading-bottom{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 7px;
+    top: 20%;
+}
+
+.flower-text-bottom{
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-family: "EB Garamond";
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 30px;
+    top:45%;
+}
+
+.flower-button-bottom {
+    background-color: transparent;
+    border-style: solid;
+    border-color:#fff;
+    border-width: 1px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color:#fff;
+    cursor: pointer;
+    font-size: 10px;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translateX(-50%);
+
+}
+.row-5 { 
+    width: 100%; 
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+} 
+
+.footer-container{
+    background-color: #b49b5c;
+    width: 650px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-left {
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    width: 350px;
+    height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    
+}
+
+.footer-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+}
+.vertical-line {
+    width: 1px;
+    height: 35px;
+    background-color: #fff;
+}
+
+.booking-button {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    width: 125px;
+    height: 25px;
+    text-align: center;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+.booking-button-container {
+    position: relative;
+    height:25px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 50px;
+}
