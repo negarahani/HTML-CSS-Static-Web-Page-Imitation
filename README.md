@@ -4,3 +4,5 @@ This project involves replicating a given web page using HTML and CSS technologi
 To complete the task, four images (image1.png, image2.png, image3.png, and flower.png) are required. The project emphasizes the use of CSS for styling and positioning elements accurately. The provided video and screenshots aid in visualizing the desired outcome.
 
 Testing the webpage on Firefox is recommended, particularly by resizing the browser window to match the dimensions of the top PNG image (image1.png) to ensure correct font, color, size, and text positioning.
+
+Visit the web page at: [HTML-CSS-Static-Web-Page-Imitation](https://negarahani.github.io/HTML-CSS-Static-Web-Page-Imitation/)
